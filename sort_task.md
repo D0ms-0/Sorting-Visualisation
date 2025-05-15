@@ -15,7 +15,7 @@ with at least three sorting algorithm
 class Unittest
 ... 
 
-- class VISUALISE with  wxPython perhaps PyPlot
+- class VISUALISE with wxPython perhaps PyPlot
 # die zeigt den Sortieralgorithmus an
 Layout of GUI
 Slider with Timer to let the sorting algorithm do its job
