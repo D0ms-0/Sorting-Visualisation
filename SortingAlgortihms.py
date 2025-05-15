@@ -1,7 +1,9 @@
 import random
+from tokenize import String
+
 
 class SortingAlgorithms:
-    def __init__(self, observer, array, delay):
+    def __init__(self, observer, array: list, delay: float):
         self.observer = observer
         self.array = array
         self.delay = delay
@@ -57,5 +59,5 @@ class SortingAlgorithms:
     def _update(self):
         self.observer.update(self.array)
 
-    def _mark(self, indices: list, color):
+    def _mark(self, indices: list, color = str):
         pass
